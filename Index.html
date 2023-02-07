@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+        
+      header {
+        background-color: #110e0e;
+        padding: 3px;
+        text-align: justify;
+        font-size: 35px;
+        
+      }
+           
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        height: 300px; 
+      }
+      
+      .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+      }
+
+
+      .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+      }
+
+      .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      }
+
+
+      @media screen and (max-width: 800px) {
+      .column {
+      flex: 50%;
+      max-width: 50%;
+       }
+      }   
+
+
+       @media screen and (max-width: 600px) {
+      .column {
+      flex: 100%;
+      max-width: 100%;
+       }
+      }
+</style>
+
+</head>
+<body>
+
+<header>
+  
+
+    <h1 id = "Tituloprincipal">Curriculum Vitae Juan Harrison</h1>
+
+</header>
+
+<nav>  
+ <button class="clickaqui" type="button" id="Boton4">Presentacion</button>
+ <button class="clickaqui" type="button" id="Boton1">Datos Personales</button>
+ <button class="clickaqui" type="button" id="Boton2">Experiencia Laboral</button>
+ <button class="clickaqui" type="button" id="Boton3">Estudios</button>
+ <button class="clickaqui" type="button" id="Boton5">Contacto</button>
+ <script src="js/Funtion.js"></script>
+
+</nav>
+
+
+  <div class="row"> 
+      <div class="column">
+      <img id="imagenprincipal" src="https://w7.pngwing.com/pngs/988/846/png-transparent-business-multivitamin-raw-foodism-ejecutivos-food-service-public-relations.png" alt="Hombre de Negocios">
+
+  </div> 
+
+  <section id="Informaciongeneral">
+
+  
+    <article>
+    
+      <Div id = "datos" style="display: none;"> 
+    
+       <h2>Datos Personales</h2>
+
+         <ul>
+            <li>Nombre y Apellido: Juan Harrison</li>
+            <li>Direccion: Coronel Arias 1874, José C. Paz, Bs. As.; Argentina</li>
+            <li>Nacionalidad: Argentino</li>
+            <li>Fecha de Nacimiento: 20/07/1990</li>
+            <li>Telefono: 11-4514-5221</li>
+            <li>Email: Soyleyendaim@gmail.com</li>
+         </ul>
+      </Div> 
+
+      <div id = "Presentacion" style="display: block;">
+
+       <h2>Presentacion</h2>
+
+           <p >Me gustaría transmitirles mi interés por el puesto de trabajo que ofrecen, me siento muy capacitado para desempeñarlo a la perfección y creo que mis experiencias anteriores me han dado la formación necesaria para estar a la altura de sus expectativas.
+
+          Al mismo tiempo, quisiera poder formar parte de su empresa, ya que sus valores profesionales encajan completamente con los míos como trabajador. Considero que es una compañía en la que podría aprender mucho y que me permitirá desarrollar todos mis conocimientos y habilidades.</p>
+      </div>
+
+      <Div id = "Experiencia" style="display: none;"> 
+    
+       <h2>Experiencia Laboral</h2>
+
+          <p>Técnico de Sistemas
+          IT Partners and Co.        
+          Julio 2015- enero 2020
+           <ul>
+             <li>A cargo de proporcionar mantenimiento y soporte para los más de 500 equipos informáticos de la empresa</li>
+             <li>Creé un protocolo de actuación en caso de averías y problemas que redujo los tiempos de reparación en un 15%.</li>
+             <li>Gracias a la creación de una serie de videos tutoriales dirigidos al usuario, reduje el número de solicitudes de ayuda diaria en un 25%.</li>
+             <li>Instauré un nuevo sistema de encuestas para revelar sus índices de satisfacción anuales.</li>
+           </ul>
+          </p>
+
+          <p>Técnico informático
+          PANEL Sistemas Informáticos
+          Febrero 2013- julio 2015
+           <ul>
+             <li>Responsable de la instalación de sistemas operativos y paquetes de software para los nuevos empleados de la compañía.</li>
+             <li>Proporcioné mantenimiento a más de 600 equipos de cómputo de forma periódica.</li>
+             <li>Atendí exitosamente un promedio de 50 solicitudes diarias provenientes de usuarios.</li>
+             <li>Reduje el tiempo de respuesta de atención de usuario en un 50%</li>
+           </ul>
+          
+           
+          </p>
+
+      </Div> 
+
+      <Div id = "Educación" style="display: none;">
+    
+       <h2>Educación</h2>
+
+           <p>Licenciado en Gestión de Tecnologias de la Información
+            <ul>
+              <li>Universidad Nacional de José C. Paz</li>
+              <li>Titulo Intermedio: Analista de Sistemas</li>
+            </ul>
+           </p>
+
+           <p>Cursos Realizados
+            <ul>
+              <li>Primeros Pasos del Desarrollo Frontend - Academia Ticmas - Argentina Programa 4.0</li>       
+            </ul>
+           </p>
+      </Div>  
+
+      <Div id = "Contacto" style="display: none;">
+
+        <h2>Contacto</h2>        
+          <P>Para comunicarse conmigo, puede llenar este formulario y sera contactado a la brevedad</p>
+
+           <form action="" method="get">
+            <label>Primer Nombre:</label>
+            <input type="text" name="Primer Nombre" placeholder="Juan"><b></b>
+            <label>Apellido:</label>
+            <input type="text" name="Apellido" placeholder="Perez"><b></b>
+            <label>Empresa</label>
+            <input type="text" name="Empresa" placeholder="Nombre de Empresa"><b></b>
+            <label>e-mail</label>
+            <input type="email" name="Email" placeholder="Ingrese su e-mail"><b></b>
+            <label>Telefono</label>
+            <input type="text" name="Telefono" placeholder="Ingrese su numero de telefono"><b></b>
+            <input type="submit" value="Enviar">
+           </form> 
+      </Div> 
+
+    </article> 
+  </section>
+    
+</body>
+
+</html>

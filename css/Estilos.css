@@ -1,0 +1,45 @@
+
+*{
+  font-family:'Itim', cursive;
+  font-size: 25px;
+  color:rgb(211, 210, 230)
+}
+
+body {
+    background-color: rgb(79, 16, 82);
+    
+  }
+
+#Tituloprincipal {
+  color: rgb(229, 229, 243);
+  font-size: 30px;
+  padding: 5px;
+  margin: 5px;
+  
+}  
+
+.clickaqui {
+ color: rgb(254, 253, 255);
+ background-color: darkslategray;
+ font-size: 30px;
+ 
+
+}
+
+#Informaciongeneral {
+  color: rgb(211, 210, 230);
+  font-size: 20px;
+  
+
+}
+
+#imagenprincipal {
+  margin: solid 10 mp; color: black;
+  width: 170px;
+
+}
+
+
+input {
+  background-color: black;
+}
